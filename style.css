@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.tagline {
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.temperature {
+    font-size: 50px;
+    color: blue;
+}
+
+.weather-icon {
+    width: 100px;
+}
